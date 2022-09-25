@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+        echo "ERR: Invalid arguments."
+		exit 1
+fi
+
+jar -cfM "$1" "$2"

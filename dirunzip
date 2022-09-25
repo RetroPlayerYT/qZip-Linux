@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+        echo "ERR: Invalid arguments."
+                exit 1
+fi
+
+mkdir $2
+cd $2
+jar -xfM "../$1"
+cd ../
+

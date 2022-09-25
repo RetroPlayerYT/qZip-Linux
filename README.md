@@ -4,4 +4,4 @@
 
 # Uninstalling
 
-``wget https://raw.githack.com/RetroPlayerYT/qZip-Linux/main/install.sh --no-check-certificate && sudo chmod +x uninstall.sh && bash uninstall.sh``
+``wget https://raw.githack.com/RetroPlayerYT/qZip-Linux/main/uninstall.sh --no-check-certificate && sudo chmod +x uninstall.sh && bash uninstall.sh``
